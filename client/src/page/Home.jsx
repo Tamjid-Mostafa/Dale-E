@@ -28,7 +28,6 @@ const Home = () => {
     try {
       const response = await fetch(`https://dale-e.vercel.app/api/v1/post`, {
         method: 'GET',
-        
         headers: {
           'Content-Type': 'application/json',
         },
